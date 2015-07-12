@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NUnit.Framework;
 #if !MONOTOUCH
 using ServiceStack.ServiceModel.Serialization;

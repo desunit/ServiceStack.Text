@@ -206,7 +206,7 @@ namespace ServiceStack.Text.Tests
 		[Test]
 		public void Can_serialize_sweedish_chars()
 		{
-			var dto = new TextTags { Text = "Olle är en ÖL ål", Tags = new[] { "öl", "ål", "mål" } };
+			var dto = new TextTags { Text = "Olle ï¿½r en ï¿½L ï¿½l", Tags = new[] { "ï¿½l", "ï¿½l", "mï¿½l" } };
 			Serialize(dto);
 		}
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 using ServiceStack.Text.Tests.DynamicModels.DataModel;
